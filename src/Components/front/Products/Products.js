@@ -8,7 +8,7 @@ const Products=({btn,productItems,addProduct,addItem,cartItems})=>{
     <div className="products">
         
         {productItems.map((productItem)=>(
-            <div className="card">
+            <div className="card" key={productItem.id}>
                 <div>
                     
                     <img className="product-image"
