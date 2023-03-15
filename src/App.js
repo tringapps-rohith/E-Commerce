@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
 
@@ -7,10 +6,9 @@ import React,{useState} from 'react';
 import Products from "./Components/front/Products/Products"; 
 import Cart from './Components/front/Cart/Cart';
 import Header from './Components/front/Header/Header';
-import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import { BrowserRouter as Routes,Route} from 'react-router-dom';
 
 function App() {
-    const { productItems}=data;
     const[cartItems,setCartItems]=useState([]);
     const [newdata,setnewdata]=useState([])
     const btn=(item)=>{
