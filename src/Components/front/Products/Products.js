@@ -1,6 +1,6 @@
-import React,{useState} from "react";
+import React from "react";
 import "./Products.css";
-import data from "../../data/Data";
+
 const Products=({btn,productItems,addProduct,addItem,cartItems})=>{
 
     return( 
