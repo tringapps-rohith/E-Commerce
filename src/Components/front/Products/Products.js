@@ -15,7 +15,7 @@ const Products=({btn,productItems,addProduct,addItem,cartItems})=>{
                     src={productItem.image}
                     alt={productItem.name}
                     />
-                    {/* {productItem.name} */}
+                   
                 </div>
                 <div>
                     <h3>{productItem.name}</h3>
@@ -23,7 +23,7 @@ const Products=({btn,productItems,addProduct,addItem,cartItems})=>{
                 <div className="product-price">Rs. {productItem.price}</div>
                 <div>
                     <button className="product-add-button" onClick={()=>addItem(productItem)}>{btn(productItem)?"Remove from Cart":"Add to Cart"}</button>
-                    {/* <button className="product-add-button" onClick={()=>removeProduct(productItem)}>Remove from Cart</button> */}
+              
                     
                     
                 </div>
